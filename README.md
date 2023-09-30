@@ -15,3 +15,5 @@
 ## Neovim setup
 
 * [Neovim](https://neovim.io/) (>= v0.8)
+* [packer.nvim](https://github.com/wbthomason/packer.nvim) - A plugin manager for Neovim
+* [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim) - A blazing fast and easy to configure Neovim statusline written in Lua
