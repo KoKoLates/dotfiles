@@ -10,12 +10,13 @@ Import-Module -Name Terminal-Icons
 
 # PSReadLine
 Set-PSReadLineOption -PredictionSource History
-Set-PSReadLineOption -PredictionViewStyle ListView
+# Set-PSReadLineOption -PredictionViewStyle ListView
 
 # Alias
 Set-Alias vim nvim
 Set-Alias ll ls
 Set-Alias grep findstr
+Set-Alias less 'C:\Program Files\Git\usr\bin\less.exe'
 
 # Utilities
 function which ($command) {
